@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+/** FirstComponent**/ 
+// import FirstComponent from './FirstComponent';
+/*SecondComponent*/
+// import SecondComponent from './SecondComponent';
+/*Third*/
+// import ThirdComponent from './ThirdComponent';
+/*PrimaryComponent*/
+import PrimaryComponent from './PrimaryComponent';
+/** This is Home page**/
+import Home from './container/Pages/Home';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <FirstComponent/> */}
+    {/* <SecondComponent/> */}
+    {/* <ThirdComponent /> */}
+    <PrimaryComponent />
+    <Home/>
   </React.StrictMode>
 );
 
